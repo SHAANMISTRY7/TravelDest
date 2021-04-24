@@ -18,7 +18,7 @@ This simple and dynamic php based website is for travelling geeks for exploratio
 
 # India
 ![India](./screenshot/india1.PNG)
-1[India](./screenshot/india2.PNG)
+![India](./screenshot/india2.PNG)
 
 # About
 ![About Page](./screenshot/about.PNG)
