@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/homepage.css">
+    <title>TravelDest | Blog</title>
+    <style>
+        hr {
+            display: none;
+        }
+
+        .blogs {
+            width: 90%;
+            margin: auto;
+        }
+
+        .blogs .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .blogs .grid-container > div {
+            width: 90%;
+            padding: 15px 20px;
+            margin: 50px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px gray;
+            transition: 0.4s all;
+        }
+
+        .blogs .grid-container > div:hover img{
+            transform: scale(0.98);
+            cursor: pointer;
+        }
+
+        .flex {
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .blogs img {
+            width: 100%;
+            height: 400px;
+            transition: 0.4s all;
+        }
+
+        .blogs a{
+            color: black;
+        }
+        @media(max-width: 500px) {
+            .blogs .grid-container {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .blogs .grid-container > div {
+                width: 90%;
+                
+            }
+
+            hr {
+                display: block;
+                width: 90%;
+                margin: auto;
+                height: 5px;
+                background-color: gray;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="index2.html"><h1 class="title">TravelDest</h1></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.php">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="hotel.html">Hotels</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="jumbotrone">
+        <p style="font-style: normal;">Blog</p>
+    </section>
+    
+    <div class="blogs">
+        <div class="grid-container">
+            <div>
+                <a href="https://www.readersdigest.ca/travel/world/top-10-most-luxurious-hotels-world/" target="_blank">
+                    <h3>10 Most Expensive Luxury Hotels in the World</h3>
+                    <div class="flex">
+                        <div>
+                            <i class="far fa-comment-dots"></i>
+                            <span>17</span>
+                        </div>
+                        <div>
+                            <i class="far fa-clock"></i>
+                            <span>Feb 22, 2021</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-user-circle"></i>
+                            <span> - Susan Campbell</span>
+                        </div>
+                    </div>
+                    <img src="images/blogs/b1.jpg" alt="">
+                </a>
+            </div>
+            <hr>
+            <div>
+                <a href="https://www.danflyingsolo.com/best-experiences-italy-must-do-list/" target="_blank">
+                    <h3>Why I love Italy – my favourite Italy experiences and places</h3>
+                    <div class="flex">
+                        <div>
+                            <i class="far fa-comment-dots"></i>
+                            <span>19</span>
+                        </div>
+                        <div>
+                            <i class="far fa-clock"></i>
+                            <span>Mar 24, 2021</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-user-circle"></i>
+                            <span> - Dan Flying Solo</span>
+                        </div>
+                    </div>
+                    <img src="images/blogs/b2.jpg" alt="">
+                </a>
+            </div>
+            <hr>
+            <div>
+                <a href="http://traveltalesfromindia.in/2021/03/cool-experiences-colombo-sri-lanka/" target="_blank">
+                    <h3>10 Cool Experiences from Colombo, Sri Lanka</h3>
+                    <div class="flex">
+                        <div>
+                            <i class="far fa-comment-dots"></i>
+                            <span>15</span>
+                        </div>
+                        <div>
+                            <i class="far fa-clock"></i>
+                            <span>Mar 24, 2021</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-user-circle"></i>
+                            <span> - Mridula Dwivedi</span>
+                        </div>
+                    </div>
+                    <img src="images/blogs/b3.jpg" alt="">
+                </a>
+            </div>
+            <hr>
+            <div>
+                <a href="http://traveltalesfromindia.in/2020/12/offbeat-tourist-places-in-bhuj-ramkund-stepwell/" target="_blank">
+                    <h3>Offbeat Tourist Places in Bhuj- Ramkund Stepwell</h3>
+                    <div class="flex">
+                        <div>
+                            <i class="far fa-comment-dots"></i>
+                            <span>37</span>
+                        </div>
+                        <div>
+                            <i class="far fa-clock"></i>
+                            <span>Dec 09, 2020</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-user-circle"></i>
+                            <span> - Mridula Dwivedi</span>
+                        </div>
+                    </div>
+                    <img src="images/blogs/b4.jpg" alt="">
+                </a>
+            </div>
+            <hr>
+            <div>
+                <a href="https://devilonwheels.com/garhwal-an-active-itinerary/" target="_blank">
+                    <h3>Garhwal in Uttarakhand – Most Common Itinerary [Day by Day Plans]</h3>
+                    <div class="flex">
+                        <div>
+                            <i class="far fa-comment-dots"></i>
+                            <span>22</span>
+                        </div>
+                        <div>
+                            <i class="far fa-clock"></i>
+                            <span>Mar 25, 2021</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-user-circle"></i>
+                            <span> - Shefali Joshi</span>
+                        </div>
+                    </div>
+                    <img src="images/blogs/b5.jpeg" alt="">
+                </a>
+            </div>
+            <hr>
+            <div>
+                <a href="https://isharethese.com/offbeat-hill-stations-of-south-india-summer-destinations/" target="_blank">
+                    <h3>OFFBEAT HILL STATIONS OF SOUTH INDIA – SUMMER DESTINATIONS</h3>
+                    <div class="flex">
+                        <div>
+                            <i class="far fa-comment-dots"></i>
+                            <span>4</span>
+                        </div>
+                        <div>
+                            <i class="far fa-clock"></i>
+                            <span>Mar 24, 2021</span>
+                        </div>
+                        <div>
+                            <i class="fas fa-user-circle"></i>
+                            <span> - Indrani Ghose</span>
+                        </div>
+                    </div>
+                    <img src="images/blogs/b6.jpg" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <footer>
+        <div class="units">
+            <div class="unit1">
+                <h6>Contact Us</h6>
+                <div>
+                    <span class="left"><i class="fa fa-phone"></i></span>
+                    <a href="tel:#">8160819688</a>
+                </div>
+                <div>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <a href="mailto:#">customercare@traveldest.com</a>
+                </div>
+                <div>
+                    <span><i class="fa fa-location-arrow"></i></span>
+                    <a href="#">4730 Crystal Springs Dr, Los Angeles, CA 90027</a>
+                </div>
+            </div>
+            <div class="unit2">
+                <h6>POPULAR NEWS</h6>
+                <div>
+                    <a href="#">Your Personal Guide to 5 Best Places to Visit on Earth</a>
+                </div>
+                <time datetime="2021-01-01">Jan 01, 2021</time>
+                <br>
+                <div>
+                    <a href="#">Top 10 Hotels: Rating by Wonder Tour Travel Experts</a>
+                </div>
+                <time datetime="2021-01-01">Jan 01, 2021</time>
+            </div>
+            <div class="unit3">
+                <h6>QUICK LINKS</h6>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="hotel.html">Hotels</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+                <div><button>Get In Touch</button></div>
+            </div>
+        </div>
+        
+       <div class="last">
+        <ul class="social">
+            <li><a href="#"><i class="fab fa-facebook fa-3x"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter fa-3x"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram fa-3x"></i></a></li>
+            <li><a href="#"><i class="fab fa-github fa-3x"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube fa-3x"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest fa-3x"></i></a></li>
+        </ul>
+        <h5>Copyright &copy; 2021 All rights reserved | Made by Shaan&nbsp;Mistry</h5>
+       </div>
+    </footer>
+</body>
+</html>

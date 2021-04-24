@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles/homepage.css">
+    <title>TravelDest | About</title>
+    <style>
+        hr {
+            display: none;
+        }
+
+        .about, .comment {
+            width: 70%;
+            margin: auto;
+            margin: 100px auto;
+            box-shadow: 0 0 20px grey;
+            padding: 50px 15px;
+            border-radius: 10px;
+        }
+
+        .testimonial > div {
+            padding: 20px 0;
+        }
+
+        .background, .background > div {
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .comments {
+            margin-top: 150px;
+        }
+
+        .comments > p {
+            font-size: 35px;
+            text-align: center;
+        }
+
+        .comment img {
+            border-radius: 50%;
+            margin: 0 45%;
+            transform: scale(1.5);
+            margin-bottom: 50px;
+        }
+
+        .stats {
+            height: 200px;
+            background: linear-gradient(180deg, #03a9f4 0%, #ccc 100%);
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+            margin: 100px 0;
+            font-size: 35px;
+            color: white;
+            font-weight: bold;
+        }
+
+        @media(max-width: 500px) {
+            .about, .comment{
+                width: 80%;
+            }
+           .comment img {
+               margin: 0 35%;
+               margin-bottom: 40px;
+           }
+           
+           .comment > p {
+               text-align: justify;
+           }
+
+           .stats {
+               font-size: 20px;
+               display: block;
+               height: auto;
+               padding: 10px 0;
+           }
+
+           .stats > div {
+               margin: 20px 0;
+           }
+
+           hr {
+               display: block;
+               width: 50%;
+               margin: auto;
+               height: 7px;
+               background-color: white;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="index2.html"><h1 class="title">TravelDest</h1></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.php">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="hotel.html">Hotels</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <section class="jumbotrone">
+        <p style="font-style: normal;">About Us</p>
+    </section>
+    
+    <div class="about">
+       <div style="font-size: 25px;"><center>Experience</center></div>
+       <div class="testimonial">
+           <div>
+               <label for="tour">Tour</label>
+               <br>
+               <br>
+               <div class="background" style="width: 100%; background-color: #DCFFF0;">
+                   <div style="width: 79%; background-color: #6ED378;">79%</div>
+               </div>
+           </div>
+           <div>
+               <label for="excursions">Excursions</label>
+               <br>
+               <br>
+               <div class="background" style="width: 100%; background-color: #fffb94;">
+                   <div style="width: 72%; background-color: #EFAE4C;">72%</div>
+               </div>
+           </div>
+           <div>
+               <label for="hotel-booking">Hotel Bookings</label>
+               <br>
+               <br>
+               <div class="background" style="width: 100%; background-color: #C4FFFF;">
+                   <div style="width: 83%; background-color: #62A2D0;">83%</div>
+               </div>
+           </div>
+       </div>
+    </div>
+
+    <div class="comments">
+        <p>What People Say</p>
+        <div class="comment">
+            <img src="images/about/s1.jpg" alt="">
+            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, doloribus. Dolorem, itaque porro! Non id pariatur dolor, quas consequatur reprehenderit!"</p>
+            <br>
+            <cite> - Catherine Williams</cite>
+        </div>
+        <div class="comment">
+            <img src="images/about/s2.jpg" alt="">
+            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, doloribus. Dolorem, itaque porro! Non id pariatur dolor, quas consequatur reprehenderit!"</p>
+            <br>
+            <cite> - Catherine Williams</cite>
+        </div>
+        <div class="comment">
+            <img src="images/about/s3.jpg" alt="">
+            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, doloribus. Dolorem, itaque porro! Non id pariatur dolor, quas consequatur reprehenderit!"</p>
+            <br>
+            <cite> - Catherine Williams</cite>
+        </div>
+    </div>
+
+    <div class="stats">
+        <div>
+            <span>12</span>
+            <br>
+            <span>Awards</span>
+        </div>
+        <hr>
+        <div>
+            <span>194</span>
+            <br>
+            <span>Tours</span>
+        </div>
+        <hr>
+        <div>
+            <span>2k</span>
+            <br>
+            <span>Travellers</span>
+        </div>
+        <hr>
+        <div>
+            <span>25</span>
+            <br>
+            <span>Team Members</span>
+        </div>
+    </div>
+
+    <footer>
+        <div class="units">
+            <div class="unit1">
+                <h6>Contact Us</h6>
+                <div>
+                    <span class="left"><i class="fa fa-phone"></i></span>
+                    <a href="tel:#">8160819688</a>
+                </div>
+                <div>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <a href="mailto:#">customercare@traveldest.com</a>
+                </div>
+                <div>
+                    <span><i class="fa fa-location-arrow"></i></span>
+                    <a href="#">4730 Crystal Springs Dr, Los Angeles, CA 90027</a>
+                </div>
+            </div>
+            <div class="unit2">
+                <h6>POPULAR NEWS</h6>
+                <div>
+                    <a href="#">Your Personal Guide to 5 Best Places to Visit on Earth</a>
+                </div>
+                <time datetime="2021-01-01">Jan 01, 2021</time>
+                <br>
+                <div>
+                    <a href="#">Top 10 Hotels: Rating by Wonder Tour Travel Experts</a>
+                </div>
+                <time datetime="2021-01-01">Jan 01, 2021</time>
+            </div>
+            <div class="unit3">
+                <h6>QUICK LINKS</h6>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="hotel.html">Hotels</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+                <div><button>Get In Touch</button></div>
+            </div>
+        </div>
+        
+       <div class="last">
+        <ul class="social">
+            <li><a href="#"><i class="fab fa-facebook fa-3x"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter fa-3x"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram fa-3x"></i></a></li>
+            <li><a href="#"><i class="fab fa-github fa-3x"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube fa-3x"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest fa-3x"></i></a></li>
+        </ul>
+        <h5>Copyright &copy; 2021 All rights reserved | Made by Shaan&nbsp;Mistry</h5>
+       </div>
+    </footer>
+
+    
+</body>
+</html>
