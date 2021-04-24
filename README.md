@@ -27,3 +27,6 @@ This simple and dynamic php based website is for travelling geeks for exploratio
 # Contact 
 ![Contact Page](./screenshot/contact.PNG)
 ![Contact Page](./screenshot/contact2.PNG)
+
+# Footer
+![Footer](./screenshot/footer.PNG)
